@@ -1,14 +1,20 @@
-import React, { Component} from 'react'
+import { Component} from 'react'
 
 class SearchBox extends Component {
-    constructor(props){
-
-    }
-
+    
+    
     render(){
-        
+    const {handleSearch} = this.props
+
       return (
-      <div>search-box.component</div>
+      <div>
+         <input 
+          type='search' 
+          placeholder='search monsters' 
+          className='search-box' 
+          onChange={handleSearch}
+        />
+      </div>
     )
   }
 }
