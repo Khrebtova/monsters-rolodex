@@ -2,7 +2,7 @@
 first test project for Udemy.com course "Complete React Developer 20023"
 
 1. app will display monsters cards
-2. used can filter/search monsters
+2. user can filter/search monsters
 
 ## learning-goals: 
 - refresh knowledge on class components 
